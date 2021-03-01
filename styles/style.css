@@ -69,7 +69,7 @@
 .email-link::before {
   content: '';
   display: inline-block;
-  background: url('/images/email-ico.svg') no-repeat;
+  background: url('../images/email-ico.svg') no-repeat;
   width: 16px;
   height: 16px;
   margin-right: 5px;
@@ -82,7 +82,7 @@
 .phone-link::before {
   content: '';
   display: inline-block;
-  background: url('/images/phone-ico.svg') no-repeat;
+  background: url('../images/phone-ico.svg') no-repeat;
   width: 16px;
   height: 16px;
   margin-right: 5px;
@@ -91,7 +91,7 @@
 .github-link::before {
   content: '';
   display: inline-block;
-  background: url('/images/github-logo.ico') no-repeat;
+  background: url('../images/github-logo.ico') no-repeat;
   width: 20px;
   height: 20px;
   margin-right: 5px;
