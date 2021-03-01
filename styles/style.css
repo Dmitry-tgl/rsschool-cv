@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Gotham Pro Light';
+  src: url('../fonts/GothamPro-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid grey;
+}
+.title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.title-description {
+  margin-bottom: 25px;
+}
+.main-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  border-bottom: 2px solid grey;
+}
+.section {
+  padding: 15px;
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.section-list {
+  list-style-position: inside;
+}
+.footer-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+
+  padding: 15px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.logo-link {
+  display: block;
+  width: 100px;
+}
+.contact-links {
+  list-style: none;
+}
+.email-link::before {
+  content: '';
+  display: inline-block;
+  background: url('/images/email-ico.svg') no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.phone-link,
+.github-link {
+  line-height: 1.2;
+}
+.phone-link::before {
+  content: '';
+  display: inline-block;
+  background: url('/images/phone-ico.svg') no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.github-link::before {
+  content: '';
+  display: inline-block;
+  background: url('/images/github-logo.ico') no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.email-link,
+.phone-link,
+.github-link {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  margin-bottom: 5px;
+}
+.address,
+.time-text {
+  text-align: left;
+  font-size: 12px;
+  color: grey;
+}
