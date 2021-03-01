@@ -2,7 +2,7 @@
 #### *Male, 34 y.o, Date of birth: 27 june 1986*
 
 *Preferred method of contact:*
-+7(902)1822770, aarzh86@mail.ru
++7(902)182277o, aarzh86@mail.ru
 
 * Currently lives in Togliatti
 * Citizenship: Russian Federation
